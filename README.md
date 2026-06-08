@@ -27,8 +27,8 @@ para confirmar que os dados são legítimos e não foram alterados.
     ```
 
 3. Instale as dependências:
-    ```
-        # Windows
+    ```bash
+    # Windows
     pip install -r requirements.txt
 
     # Linux / Mac
@@ -36,7 +36,7 @@ para confirmar que os dados são legítimos e não foram alterados.
     ```
 
 4. Rode o servidor:
-    ```
+    ```bash
     uvicorn main:app --reload
     ```
 
